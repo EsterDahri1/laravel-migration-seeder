@@ -4,11 +4,17 @@
 
 <p>First of all create a new laravel folder by going into the terminal and by typing the following command:</p>
 
-<code>laravel new name_of_your_folder --git</code>
+```
+laravel new name_of_your_folder --git
+```
+
 
 <p>While installing it will ask some things and the answers are the following</p>
 
-<code>none <br/> 1 <br/> mysql</code>
+```
+none <br/> 1 <br/> mysql
+```
+
 
 <p>Then enter the folder by typing:</p>
 
@@ -16,11 +22,17 @@
 
 <p>After that run this composer command:</p>
 
-<code>composer require pacificdev/laravel_9_preset</code>
+```
+composer require pacificdev/laravel_9_preset
+```
+
 
 <p>ADD BS SASS & Vite Preset</p>
 
-<code>php artisan preset:ui bootstrap</code>
+```
+php artisan preset:ui bootstrap
+```
+
 
 <p>for compatibility notes go at this site:</p>
 
@@ -28,16 +40,34 @@
 
 <p>Then</p>
 
-<code>npm i && npm run dev</code>
+```
+npm i && npm run dev
+```
+
 
 <p>and on the other terminal page</p>
 
-<code>php artisan serve</code>
+```
+php artisan serve
+```
+
 
 ###### To save everything on github
 
-1. <code>git status</code> to see what has been modified
-2. <code>git add .</code> to add and stage all the changes
-3. <code>git commit -m"Your commit message here"</code> to commit and push the changes
+1.
+```
+git status
+```
+ to see what has been modified
+2.
+```
+git add .
+```
+ to add and stage all the changes
+3.
+```
+git commit -m"Your commit message here"
+```
+ to commit and push the changes
 
 <p>Go to github.com and create a new repository, then copy the command to import an existing folder and run it in the terminal</p>
