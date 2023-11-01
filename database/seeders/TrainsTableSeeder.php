@@ -29,7 +29,7 @@ class TrainsTableSeeder extends Seeder
             'Canadian National Railway'
         ];
 
-        for ($i = 0; $i < 30; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             $new_train = new Train();
             $new_train->agency = $faker->randomElement($agencies);
             $new_train->departure_station = $faker->word();
