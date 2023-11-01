@@ -12,7 +12,7 @@
 
 <p>Then enter the folder by typing:</p>
 
-<code>cd name_of_your_folder</code>
+>cd name_of_your_folder
 
 <p>After that run this composer command:</p>
 
